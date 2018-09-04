@@ -1,0 +1,2 @@
+Afin de trouver chez quel hebergeur est le site de Slash16, il faut tout d'abord trouver son adresse ip avec nslookup ou host. Ensuite, il suffit d'utiliser la commande whois avec l'une des adresse IP obtenues
+L'hebergeur est donc Amazon.com

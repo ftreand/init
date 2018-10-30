@@ -1,0 +1,16 @@
+#!/bin/bash
+#@midnight ~/Git/init/scripts/04
+
+if [-e /root/hash.crontab]
+then
+	md5sum /etc/crontab > /root/hash.crontab1
+	if [diff /root/hash.crontab /root/hash.crontab1]
+		then
+			echo "Le fichier a ete modifie" | mail -s "Fichier modifie" root
+			rm /root/hash.crontab
+			mv /root/hash.crontab1 /root/hash.crontab
+	fi
+else
+	md5sum /etc/crontab > /root/hash.crontab
+fi
+

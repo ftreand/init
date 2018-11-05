@@ -1,5 +1,5 @@
 #!/bin/bash
-#@midnight ~/Git/init/scripts/04
+#@midnight sh ~/Git/init/scripts/04
 
 if [-e /root/hash.crontab]
 then

@@ -1,2 +1,2 @@
 Il faut ajouter une ligne dans le fichier /etc/hosts pour faire pointer intra.42.fr sur l'adresse 46.19.122.85
-=> 46.19.122.85 intra42.fr
+=> 46.19.122.85 intra42.fr // cependant nous n'avons pas les droits pour acceder au fichier (droit d'execution)

@@ -1,1 +1,2 @@
 du -sh /var/*
+## commande a executer en super utilisateur
